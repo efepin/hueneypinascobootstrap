@@ -1,0 +1,340 @@
+/*Vista Desktop*/
+/*CSS general*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+ }
+
+html{
+    background-color: #344d70 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #344d70 ;
+}
+
+.banner-flex{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color:#93714a;
+    j
+       
+               
+}
+
+.animacionlista{
+    transition: all;
+}
+
+.animacionlista:hover{
+    background-color: grey;
+    color: white;
+}
+
+ul li{
+    display: inline;
+    padding: 0px 40px;
+    margin: 15px;           
+}
+
+.imagenesfondo{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 6/7;
+    color: white;
+    justify-content: center
+                
+}
+
+/*Index*/
+.bodyindex{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%;
+    background-color: #344d70;
+    
+}
+
+.indexmain{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    background-color: #344d70 ;
+    color: white;
+    
+}
+
+.indexmain{
+    display: block;
+    width: 100%;
+    margin: 0   auto;
+    text-align: center;
+    background-color: black;
+    background-image: url(../Imagenes/vamo.jpg);
+    
+}
+
+.youtube{
+    margin: 10px auto;
+    background-color: black;
+    
+    
+}
+
+.frase1{
+    background-color:#344d70;
+    color: white;
+    padding: 10px 0px;
+    margin: 0 auto;
+  
+}
+
+.frase2{
+    background-color:#344d70;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0px
+}
+
+/*Nosotros*/
+
+.bodynosotros{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%;
+    background-color: #344d70;
+    
+}
+
+.nosotrosmain{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    background-color:#344d70 ;
+    color: white;
+}
+
+.nosotrosmain{
+    display: block;
+    width: 100%;
+    margin: 0   auto;
+    text-align: center;
+      
+}
+
+.titulonosotros{
+    background-color: black;
+}
+
+.textonosotros{
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #344d70;
+}
+
+.carrusel{
+    background-image: url(../Imagenes/caminochalten2.png);
+    padding: 10px;
+}
+
+/*Destinos*/
+
+.bodydestinos{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%;
+    background-color: #344d70;
+    
+}
+
+.destinosmain{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/6;
+}    
+
+.destinosmain{
+    width: 100%;
+    background-color: #344d70 ;
+    color: white;
+}
+
+.destinosmain h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.destinofte{
+    text-align: center;
+    background-color: #88a0b8;
+    width: 100%;
+    padding: 20px 0px;
+    color: white
+}
+
+.destinofte1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinofte1 p{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    padding: 130px;
+    
+}
+
+.destinofte1 img{
+    width: 50%;
+}
+
+.arriba{
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+    background-color: #93714a;
+}
+
+/*Excursiones*/
+
+.bodyexcursiones{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%; 
+    background-color: #344d70;
+
+}
+
+.excursionesmain{
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    color: white;
+    background-color: #344d70;
+}
+
+.excursionesmain h2{
+    text-align: center;
+    color: white;
+    background-color: #344d70;
+    padding: 15px;
+    
+}
+
+.excursionesdiv{
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+.excursionesfte{
+    text-align: center;
+    background-color: #88a0b8;
+    width: 100%;
+    color: white;
+    padding: 20px 0px ;
+        
+}
+
+.excursionesfte1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.excursionesfte1 p{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+    
+}
+
+.excursionesfte1 img{
+    width: 50%;
+}
+
+
+/*Contactanos*/
+
+.bodycontact{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%;
+    background-color: #344d70;
+    
+}
+
+.contactmain{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    background-color: #344d70 ;
+    color: white;
+    margin: 0   auto;
+}
+
+
+.contactmain h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.contactdiv{
+    width: 100%;
+    display: flex;
+    background-image: url(../Imagenes/reserva-laguna-nimez-argentina_l.jpeg);
+           
+}
+
+form{
+    width: 50%;
+    padding: 1%;
+    padding-left: 4%;
+    
+}
+
+.contactdiv iframe{
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.socialmedia{
+    text-align: center;
+    padding: 40px;
+}
